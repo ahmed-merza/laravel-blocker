@@ -1,5 +1,5 @@
 {
-    "name": "jeremykenedy/laravel-blocker",
+    "name": "ahmed-merza/laravel-blocker",
     "description": "",
     "keywords": [
             "laravel blocker",
@@ -18,9 +18,15 @@
             "email": "jeremykenedy@gmail.com"
         }
     ],
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahmed-merza/seedster"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "eklundkristoffer/seedster": "^9.0"
+         "eklundkristoffer/seedster": "dev-master"
     },
     "autoload": {
         "psr-4": {
